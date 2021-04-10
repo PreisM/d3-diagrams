@@ -3,6 +3,7 @@
     <chart-maker />
     <chartMakerStiff />
     <star />
+    <bars />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import chartMaker from './components/chartMaker.vue'
 import chartMakerStiff from './components/chartMakerStiff.vue'
 import star from './components/star.vue'
+import bars from './components/bars.vue'
 
 export default {
   name: 'App',
   components: {
     chartMaker,
     chartMakerStiff,
-    star
+    star,
+    bars
   }
 }
 </script>
