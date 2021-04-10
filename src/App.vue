@@ -1,19 +1,22 @@
 <template>
   <div id="app">
     <chart-maker />
-    <circleGraph />
+    <chartMakerStiff />
+    <star />
   </div>
 </template>
 
 <script>
 import chartMaker from './components/chartMaker.vue'
-import circleGraph from './components/circleGraph.vue'
+import chartMakerStiff from './components/chartMakerStiff.vue'
+import star from './components/star.vue'
 
 export default {
   name: 'App',
   components: {
     chartMaker,
-    circleGraph
+    chartMakerStiff,
+    star
   }
 }
 </script>
