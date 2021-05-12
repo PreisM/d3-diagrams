@@ -84,7 +84,7 @@ export default {
       .attr('transform', 'translate(0, 620)')
       .call(xAxis)
       .append('text')
-      .attr('x', (900+70)/2)
+      .attr('x', (900+this.leftMargin)/2)
       .attr('y', '50')
       .text('Year')
 

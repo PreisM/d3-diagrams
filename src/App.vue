@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <flower-chart />
+    <pie-chart />
+    <pie-chart2 />
     <chart-maker />
     <chartMakerStiff />
     <star />
@@ -17,6 +20,9 @@ import star from './components/star.vue'
 import bars from './components/bars.vue'
 import burnChart from './components/burnChart.vue'
 import lineChart from './components/lineChart.vue'
+import pieChart from './components/pieChart.vue'
+import pieChart2 from './components/pieChart2.vue'
+import flowerChart from './components/flowerChart.vue'
 
 export default {
   name: 'App',
@@ -26,7 +32,10 @@ export default {
     star,
     bars,
     burnChart,
-    lineChart
+    lineChart,
+    pieChart,
+    pieChart2,
+    flowerChart
   },
   data() {
     return {
